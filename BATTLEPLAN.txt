@@ -1,0 +1,56 @@
+Armoede platform 
+
+- 0.0) Algemene punten 
+	- Applicatie data moet uniform zijn met GBPR
+	- Knop voor de talen (NL, FR, EN)
+	- Registratie en opbouwen van de middleware die hiervoor verantwoordelijk is. 
+	- Aanpassing van de disclaimer. (Geen standaard disclaiment) Omdat die niet web maar applicatie gericht is. 
+		-> Data word alleen gebruikt voor interne werking 
+			-> (Later) Moet bekeken werken in welke maten we vrijwilligers inzage geven in data bundels
+
+- O.1) Index pagina van de applicatie 
+	- Uitleg over het idee en hulp verlening 
+	- Social media buttons en mogelijk om te delen. 
+ 	- Login en registratie knop in de navigatie balk. 
+
+- 0.2) Manier voor bedeler/sponser toevoegen (zowel in back als front)
+	- Aanleveren van materieel (wat, hoeveel)
+
+- 0.3) Bedeel depo's 
+	- Er moet een overzicht zijn van de bedeel depo's in de front (Gebruiker moet deze kunnen zien zonder authencatie.)
+
+	- Depot's opslaan in backend 
+		- Mensen moeten bedeel depot kunnen doorgeven 
+		- Organistie (ActivismeBE) moet deze mensen en depots ook kunnen opvolgen en begeleiden 
+	    - Vrijwilligers Moeten ook een login hebben zodat zij hun materieele in een algemene inventaris kunnen plaatsen. 
+
+- 0.4) Inschrijven voor vrijwilligers (Hulp en potentiele vrijwilligers)
+	- Inschrijf formulier om te helpen (voor een dag of een soep bedeling)
+
+- 0.5) Soep bedeling 
+	- Aanmaken van een kaleneder (plaats, datum, uur)
+	- Mensen moeten ook een aanvraag formulier kunnen invullen voor een bedeling op hun gegeven locatie. 
+
+- 0.6) Vraag hulp
+	- Mensen die in armoede leven moeten een aanvraag kunnen doen voor hulp. (Voedsel, Spullen)
+		-> Kan eventueel via het CSAM systeem als support ticket binnen komen.  
+
+- 0.7) Authencatie en permissie beheer
+	- Authencatie 
+		-> Login pagina 
+		-> Methode om in te loggen 
+		-> Methode om te registreren 
+		-> View voor de registratie 
+		-> Methode om een nieuw wachtwoord aan te vragen (Wachtwoord vergeten)
+
+	- ACL Authorizatie 
+		-> Kan mogelijk door de CSAM 
+			-> Indien keuze voor geen CSAM 
+				-> method voor blokkering en activering van gebruiker 
+				-> method voor het verwijder van gebruikers (soft delete)
+				-> method voor als admin een gebruiker aan te maken. 
+				-> method voor aanpassing van ge gebruiker zijn permissies en rechten. 	 
+
+- 0.8) Beheer van vrijwilligers groepen 
+	- Vrijwilligers moeten in groepen gestoken kunnen worden (bedeelpunten, en materiele depot's)
+	- Systeem beheerders moeten ook lijsten kunnen inkijken van boven benoemd punt. (Lijsten mogen niet downloadbaar zijn. wegens data protectie.)
